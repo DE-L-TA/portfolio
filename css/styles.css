@@ -107,7 +107,30 @@ p {
 {
     background-color: transparent;
 }
+#home{
+    margin-top:10rem
+}
+#home h1{
+  font-size: 5rem;
+}
+#home img .avtaar{
+    height:20rem;
+    width: 20rem;
+}
+.skills img {
+    height:10rem
+}
 
+#intro h2{
+    font-size:5rem;margin-top:5rem
+}
+#home .avtaar{
+    margin-top:8rem;height:25rem;width:25rem
+} 
+#intro p{
+    font-size:3rem;
+    margin: 3rem 5rem;
+}
 
 @media(min-width:768px) {
     
@@ -188,8 +211,30 @@ p {
     font-size:2.5rem;
 }
 @media(max-width:768px){
+    #home h1{
+        margin-top:8rem;
+        font-size:2.5rem
+    }
+    #home .avtaar{
+        height:20rem;
+        width:20rem;
+    }
+  
+    #home h3{
+        
+        font-size:1.5rem
+    }
+    #intro h2{
+        font-size:2.5rem;margin-top:5rem
+    }
+    #intro p{
+        font-size:1.2em;margin-bottom:3rem
+    }
+    .skills img {
+        height:6rem
+    }
+ 
     #one h1{
 padding-top: 6rem;
     }
 }
-
